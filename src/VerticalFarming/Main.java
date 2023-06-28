@@ -1,4 +1,4 @@
-package VerticalFarming;
+package VerticalFarming.src.VerticalFarming;
 
 import java.io.IOException;
 

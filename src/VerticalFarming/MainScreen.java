@@ -1,4 +1,4 @@
-package VerticalFarming;
+package VerticalFarming.src.VerticalFarming;
 
 import com.fazecast.jSerialComm.SerialPort;
 import com.fazecast.jSerialComm.SerialPortDataListener;

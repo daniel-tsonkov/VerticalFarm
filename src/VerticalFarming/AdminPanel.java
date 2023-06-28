@@ -1,4 +1,4 @@
-package VerticalFarming;
+package VerticalFarming.src.VerticalFarming;
 
 import javax.swing.*;
 import java.awt.*;
@@ -29,7 +29,7 @@ public class AdminPanel extends JFrame implements ActionListener, MouseListener 
     JButton removeUser = new JButton(iconDeleteBlack);
     JButton editUser = new JButton(iconEditUserBlack);
 
-    public AdminPanel(VerticalFarming.MainScreen mainScreen) throws ClassNotFoundException {
+    public AdminPanel(MainScreen mainScreen) throws ClassNotFoundException {
         this.setUndecorated(true); //remove "Title bar"
         this.mainScreen = mainScreen;
         //this.setSize(1600, 950);

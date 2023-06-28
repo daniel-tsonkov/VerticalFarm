@@ -1,4 +1,4 @@
-package VerticalFarming;
+package VerticalFarming.src.VerticalFarming;
 
 import com.fazecast.jSerialComm.SerialPort;
 
@@ -33,7 +33,7 @@ public class Settings extends JFrame implements ActionListener {
 
     public MainScreen mainScreen;
 
-    public Settings(VerticalFarming.MainScreen mainScreen) throws ClassNotFoundException {
+    public Settings(MainScreen mainScreen) throws ClassNotFoundException {
         this.mainScreen = mainScreen;
         this.setUndecorated(true); //remove "Title bar"
         //this.setLocationRelativeTo(null);

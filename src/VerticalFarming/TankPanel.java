@@ -1,4 +1,4 @@
-package VerticalFarming;
+package VerticalFarming.src.VerticalFarming;
 
 import javax.swing.*;
 import java.awt.*;
