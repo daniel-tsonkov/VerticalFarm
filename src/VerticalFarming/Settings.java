@@ -40,7 +40,7 @@ public class Settings extends JFrame implements ActionListener {
         this.setSize(650, 430);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage(MainScreen.class.getResource("resources/gear.png")));
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage(MainScreen.class.getResource("/VerticalFarming/resources/gear.png")));
         this.setTitle("Настройки");
         this.setLayout(null);
         this.setVisible(true);

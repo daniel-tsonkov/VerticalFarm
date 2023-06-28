@@ -36,7 +36,7 @@ public class AdminPanel extends JFrame implements ActionListener, MouseListener 
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        this.setIconImage(Toolkit.getDefaultToolkit().getImage(MainScreen.class.getResource("resources/admin.png")));
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage(MainScreen.class.getResource("/VerticalFarming/resources/admin.png")));
         this.setTitle("Admin");
         this.setLayout(null);
         this.setVisible(true);
